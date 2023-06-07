@@ -7,14 +7,14 @@
 
             /* any article element which is a direct child of a section element,i.e.,
             any article element whose immediate parent is a section element. */
-            xyz {
+            section > article {
                 color: green;
                 font-size: 24px;
             }
 
             /* any h2 element which is a direct child of a section element,i.e.,
             any h2 element whose immediate parent is a section element. */
-            xyz {
+            section > h2 {
                 color: green;
             }
         </style>
@@ -27,11 +27,9 @@
                 <article>ARTICLE which inside DIV, which is inside SECTION</article>
             </div>
         </section>
+        <h2>Subheading 2</h2>
         <section>
-            <h2>Subheading 2</h2>
-            <div>
-                <article>ARTICLE as a direct child of the SECTION element</article>
-            </div>
+            <article>ARTICLE as a direct child of the SECTION element</article>
         </section>
     </body>
 </html>
