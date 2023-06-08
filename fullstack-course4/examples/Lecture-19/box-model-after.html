@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Box Model</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: gray;
+            }
+            #box {
+                background-color: blue;
+                padding: 10px 10px 10px 10px; /*top right bottom left is the order*/
+                border: 5px solid black;
+                height: 50px;
+                width: 300px;
+                margin-top: 40px;
+                overflow: auto;
+            }
+            #content {
+                background-color: #90ee90; /*green*/
+            }
+            h1 {
+                margin-bottom: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Box Model</h1>
+        <div id="box">
+            <div id="content">A div content A div content A div content A div content
+                A div content A div content A div content A div content A div content
+                A div content A div content A div content A div content A div content
+                A div content A div content A div content A div content A div content
+            </div>
+        </div>
+    </body>
+</html>
