@@ -1,0 +1,29 @@
+javascript defines 7 built-in types : 1 object and 6 primitive.
+
+Object
+        - It is a collection of name/value pairs
+        - Can have nested objects
+
+Primitive
+        - It represents a single, immutable value
+        - here single value means it is not object
+        - immutable means once the value is set, it can't be changed
+            -value becomes read-only
+            -can another value based on an existing value
+        -Boolean:
+            -Can only have two value: true or false.
+        -Undefined:
+            -Signifies that no value has ever been set
+        
+        /*********** NULL signifies the lack of value in javascript ***********/
+
+        -javascript doesn't have integer type and it only has number.
+
+        -String:
+            -It is sequence of characters used to represent text
+        -Symbol:
+            -Not used much
+
+Undefined is different from not defined in js as "Undefined" means value 
+is not defined whereas "not defined" means the variable or function is 
+not defined or present in the code.
